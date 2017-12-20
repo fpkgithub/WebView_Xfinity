@@ -2,7 +2,8 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
 
 
     defaultConfig {
